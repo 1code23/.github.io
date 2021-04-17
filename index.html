@@ -49,6 +49,17 @@
             align-items: center;
             flex-wrap: wrap;
         }
+        .meeage{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .addres{
+            margin-left: 20px;
+        }
+       .jineng li{
+           line-height: 25px;
+       }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded",function(){
@@ -66,48 +77,49 @@
         年龄:<span id="Age">25</span> | 求职意向: Web前端 | 期望薪资:面议
     </header>
     <section>
+        <h2>掌握技能</h2>
+        <hr/>
+        <ul class="jineng">
+            <li>精通 HTML+CSS 页面布局，熟悉 W3C 标准，并且具有良好的代码书写习惯。</li>
+            <li>熟练使用关键帧动画和过渡动画，弹性布局和响应式布局等布局方式，使页面布局更加多元化。</li>
+            <li>熟悉掌握 jQuery 的运用，可以用 jQuery 中的语法正确迅速地对页面进行逻辑处理。</li>
+            <li>熟练使用layui、vant、Element、bootStrap等第三方ui组件库，快速构架页面。</li>
+            <li>熟练使用Swiper.js和Animate.css等第三方类完成页面的特效操作。</li>
+            <li>熟练使用Vue框架，擅长使用组件化开发页面，利用vue-cli脚手快速搭建项目，二次封装axios网络异步请求。</li>
+            <li>熟练使用Vue-Router实现路由调以及页面之间的通信，熟练使用vuex公共数据管理，深刻理解vue的生命周期，数据双向绑定。</li>
+            <li>掌握React框架，熟练使用react-router-dom配置路由，Redux全局状态数据管理，使用fetch或者axios完成网络数据请求，react-transition-group动画完成页面特效操作。</li>
+            <li>掌握微信小程序的开发流程，熟练使用Vant weapp等UI组件库快速构建页面，通过globalData进行全局状态数据管理，熟悉微信小程序开发文档。</li>
+            <li>熟练使用 ajax axios fetch wx.request进行网络数据请求，并高效快速渲染页面。</li>
+            <li>掌握uni-app进行app、H5端、小程序端开发。</li>
+            <li>掌握node.js，通过使用express进行简单的服务器搭建，利用http-proxy-middleware模块解决跨域问题。</li>
+            <li>熟练并掌握 npm 包管理工具、对模块进行相应管理。</li>    
+            <li>熟悉ES6新特性，如let const 箭头函数 promise封装异步操作，利用async、await实现异步操作具有同步执行顺序的方法。</li>
+            <li>掌握 webpack 前端打包工具，git 代码管理,能够进行多人进行团队项目开发。</li> 
+        </ul>    
+    </section>
+    <section>
         <h2>工作经历</h2>
         <hr/>
         <hgroup>
-            <div>
-                <h3>Dotc united group</h3>
-                <time>2020年08⽉ - 2020年11⽉</time>
+            <div class="message">       
+                <h4>前端开发⼯程师 - 技术部<span class="addres">河南-郑州</span></h4>
+                <h4>郑州方圆信息技术有限公司</h4>
+                <time>2019年03⽉ - 2021年4⽉</time>
             </div>
-            <div>
-                <h4>前端开发⼯程师 - 技术部</h4>
-                <span>上海</span>
-            </div>
-        </hgroup>
-        <ul>
-            <li>内容：独立主导开发Web前端项目。</li>
-        </ul>
-
-        <hgroup>
-            <div>
-                <h3>新乡市嘟嘟⽹络技术有限公司</h3>
-                <time>2018年03⽉ - 2020年07⽉</time>
-            </div>
-            <div>
+            <!-- <div>
                 <h4>前端开发⼯程师 - 技术部</h4>
                 <span>郑州</span>
-            </div>
+            </div> -->
+            <p>职位描述：</p>
         </hgroup>
         <ul>
-            <li>内容：参与开发PC端⽹站改版，开发移动端，小程序，推进前端技术体系建设。</li>
-        </ul>
-        <hgroup>
-            <div>
-                <h3>郑州双骏电⼦科技有限公司</h3>
-                <time>2017年10⽉ - 2018年02⽉</time>
-            </div>
-            <div>
-                <h4>前端开发⼯程师 - 技术部</h4>
-                <span>郑州</span>
-            </div>
-        </hgroup>
-        <ul>
-            <li>内容:维护⽹站前端⽇常修改，独⽴完成⽹站前端改版。</li>
-        </ul>
+            <li>与UI设计师对接，用html、css、JQuery、Vue、React来实现对应的Web网站页面效果。</li>
+            <li>准确理解产品需求，交互文档或原型，最大程度实现需求效果，进行Web产品前端开发。</li>
+            <li>使用vue及vue全家桶负责各业务模块前端代码开发，负责前后端交互的实现。</li>
+            <li>及时与项目经理进行沟通，保证项目的准确性与完善性。</li>
+            <li>负责公司现有项目和新项目的前端修改调试和开发工作。</li>
+            <li>与后端开发团队紧密配合，确保代码有效对接，优化网站前端性能。</li>
+        </ul>    
     </section>
 
     <section>
@@ -115,167 +127,106 @@
         <hr/>
         <hgroup>
             <div>
-                <h3>BBkingrummy</h3>
-                <time>2020年08⽉ - 2020年11⽉</time>
+                <h3>悦动生活（React）</h3>
             </div>
         </hgroup>
         <ul>
-            <li>描述: Rummy类纸牌游戏,发行于海外。</li>
-            <li>技术栈: Vue、Vuex、PWA、Webpack、Node.js、Nginx。</li>
-            <li>负责:
+            <li>项目描述: 悦动人生是一款音乐APP,用户可以在线听歌,完成相关流程后可以申请成为音乐人,可以在线购买商品,使购物与听歌相结合,给用户营造全新体验。</li>
+            <li>项目职责:
                 <ul>
-                    <li>主导前端项目设计开发</li>
-                    <li>优化前端性能</li>
-                    <li>部署发布项目</li>
+                    <li>负责和UI设计师沟通确定页面布局与效果。</li>
+                    <li>负责首页数据展示。</li>
+                    <li>封装loading组件，完成页面加载动画。</li>
+                    <li>完成页面之间的相互跳转及切换动画效果。</li>
+                    <li>完成歌曲播放页面、倍速播放、播放暂停、列表循环播放、切换歌曲。</li>
+                    <li>异步请求数据，请求下来的数据渲染到页面展示。</li>
+                    <li>组件之间的相互通信，全局状态数据管理。</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//bbkingrummy.com">bbkingrummy.com</a></li>
+            <li>技术点：create-react-app、react-router-dom、fetch、props、redux、CSSTransition、BrowserRouter、Link、Router</li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>币闪购（小程序）</h3>
-                <time>2020年05⽉ - 2020年06⽉</time>
+                <h3>焦作优选（小程序）</h3>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 交易平台小程序快速购买游戏币。</li>
-            <li>技术栈: uni-app、小程序、Vue、Websocket。</li>
-            <li>负责:
+            <li>项目介绍：该小程序主要功能可以展示商家信息,商家入驻,用户在线浏览商家信息,商家商品,实现在线下单购买。</li>
+            <li>项目职责:
                 <ul>
-                    <li>弹出框组件，⻚头⻚脚等</li>
-                    <li>⽹络请求库封装及token验证</li>
-                    <li>订单相关及聊天服务</li>
+                    <li>负责和UI设计对接,完成页面布局。</li>
+                    <li>二次网络封装请求，实现异步请求数据，渲染页面。</li>
+                    <li>完成详情信息展示以及商家提交的入驻信息。</li>
+                    <li>完成首页轮播图展示以及商家信息展示。</li>
+                    <li>负责搜索页面数据展示,排序等功能。</li>
+                    <li>负责获取当前地理坐标信息,调用微信内部的导航接口wx.openLocation进行导航。</li>
+                    <li>完成好评页面数据展示。</li>
                 </ul>
             </li>
+            <li>技术点：swiper、swiper-item、Promise、wx.switchTab、wx.navigateTo、app.globalData、navigator、Vant Weapp、wx.getLocation+wx.openLocation</li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>嘟嘟组号</h3>
-                <time>2019年11⽉ - 2020年02⽉</time>
+                <h3>兔柚商城（Vue）</h3>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 账号租赁平台</li>
-            <li>技术栈: Vue、Nginx、Axios、Websocket。</li>
-            <li>
-                负责:
+            <li>项目介绍：兔柚商城是一款线上购物平台，支持多种支付模式，整合多家物流，灵活的后台管理，简洁友好的前台页面，给您带来不一样的购物体验。</li>
+            <li>项目职责:
                 <ul>
-                    <li>前端项⽬的规划开发和推进</li>
-                    <li>Ajax请求库的封装，和各服务token验证</li>
-                    <li>弹出框、表单、分享、复制等组件</li>
-                    <li>账⼾列表，发布，游戏区服选择搜索、及订单相关</li>
+                    <li>与UI对接还原首页、商品分类、以及产品详情页面。</li>
+                    <li>负责首页头部和底部组件的封装。</li>
+                    <li>商家信息和产品详情模块的构建。</li>
+                    <li>使用vuex进行数据全局共享。</li>
+                    <li>完成页面过渡动画,增加用户体验感。</li>
+                    <li>与后端人员对接，后期数据更新。</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//zuhao.dd373.com/m/">zuhao.dd373.com/m/</a></li>
+            <li>技术点：vue-cli、vuex、vant、axios、transition、Promise、solt、v-on、v-show、v-if、v-bind</li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>移动端dd373交易平台</h3>
-                <time>2019年07⽉ - 2019年09⽉</time>
+                <h3>博思花艺（小程序）</h3>
             </div>
         </hgroup>
         <ul>
-            <li>2019年07⽉ - 2019年09⽉</li>
-            <li>描述: WEB移动端交易平台</li>
-            <li>技术栈: Gulp、Babel、ES6、Vue、Nginx等。</li>
-            <li>
-                负责:
+            <li>项目介绍：用户可以在商城完成注册，登录，查看，商品购买，加入购物车等相关操作。</li>
+            <li>项目职责:
                 <ul>
-                    <li>弹出框组件</li>
-                    <li>订单详情聊天</li>
-                    <li>订单列表</li>
-                    <li>点卡充值</li>
+                    <li>和UI设计师对接完成还原设计图。</li>
+                    <li>轮播图模块展示，商品的展示。</li>
+                    <li>二次网络封装请求，实现异步请求数据，渲染页面。</li>
+                    <li>完成页面之间的相互跳转。</li>
+                    <li>完成组件之间的相互通信，参数传递、全局状态数据管理。</li>
+                    <li>登录授权通过getUserInfor事件，结合open-data组件获取头像、用户名等信息。</li>
+                    <li>完成购物车及商品详情页面的构建。</li>
+                    <li>后期代码更新与维护。</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//m.dd373.com">m.dd373.com</a> </li>
+            <li>技术点：swiper、swiper-item、Promise、wx.switchTab、wx.navigateTo、 wx.setStorageSync、app.globalData、navigator、Vant Weapp</li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>嘟嘟⽹络游戏交易平台（改版）</h3>
-                <time>2019年07⽉ - 2019年09⽉</time>
+                <h3>博思花艺（小程序）</h3>
             </div>
         </hgroup>
         <ul>
-            <li>2019年07⽉ - 2019年09⽉</li>
-            <li>描述: 描述:对已有⽼交易平台的改版更新换代。</li>
-            <li>技术栈: : Gulp、Babel、ES6、Sass、jQuery、Promise、Nginx等。</li>
-            <li>负责:
+            <li>项目介绍：用户可以在商城完成注册，登录，查看，商品购买，加入购物车等相关操作。</li>
+            <li>项目职责:
                 <ul>
-                    <li>⻚头游戏区服选择器</li>
-                    <li>⽹站⾃定义配置菜单</li>
-                    <li>购物⻋，订单列表，批量发布等</li>
-                    <li>订单详情及订单聊天服务包括客服和⽤⼾两个端聊天服务</li>
+                    <li>网络请求以及布局、实现用户的交互操作。</li>
+                    <li>与UI设计师和后端人员对接，还原设计图、完成数据交互。</li>
+                    <li>完成轮播图部分展示</li>
+                    <li>实现路由跳转、页面切换以及动画效果，增加用户体验。</li>
+                    <li>完成页面数据传输，进行全局状态管理，数据本地存储。</li>
+                    <li>后期网站的数据更新与维护</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//www.dd373.com">www.dd373.com</a> </li>
-        </ul>
-        
-        <hgroup>
-            <div>
-                <h3>嘟嘟饰品交易卖家助⼿</h3>
-                <time>2019年03⽉ - 2019年05⽉</time>
-            </div>
-        </hgroup>
-        <ul>
-            <li>描述: Steam饰品交易卖家发货客⼾端</li>
-            <li>技术栈: CEF(Chromium嵌入式框架)、ES6、ES7</li>
-            <li>独⽴负责整个客⼾端前端功能开发</li>
-        </ul>
-        
-        <hgroup>
-            <div>
-                <h3>DD373电竞饰品交易平台</h3>
-                <time>2018年04⽉ - 2019年04⽉</time>
-            </div>
-        </hgroup>
-        <ul>
-            <li>描述: 该项⽬为Steam交易平台，可以绑定Steam账⼾，发布购买游戏饰品。</li>
-            <li>项⽬前后端分离，使⽤Gulp为⾃动化构建⼯具，⽤nginx做前端代理转发请求API。</li>
-            <li>
-                负责
-                <ul>
-                    <li>开发商品详情，背包，购物⻋等⻚⾯；</li>
-                    <li>设计开发表单模块包括验证、提交等功能；</li>
-                    <li>分享组件，分享到QQ、微信等平台。</li>
-                </ul>
-            </li>
-            <li>项⽬链接: <a href="//steam.dd373.com">steam.dd373.com</a></li>
-        </ul>
-
-        <hgroup>
-            <div>
-                <h3>在线咨询客服系统</h3>
-                <time>2018年06⽉ - 2018年08⽉</time>
-            </div>
-        </hgroup>
-        <ul>
-            <li>描述: ⽤⼾咨询客服聊天系统。聊天服务使⽤webSocket框架signalR</li>
-            <li>聊天服务使⽤webSocket框架signalR。</li>
-            <li>
-                负责:
-                <ul>
-                    <li>发送，接收消息、表情</li>
-                    <li>复制粘贴发送图⽚</li>
-                    <li>消息智能提⽰，消息提醒、已读等</li>
-                </ul>
-            </li>
-            <li>项⽬链接: <a href="//www.dd373.com">www.dd373.com</a></li>
-        </ul>
-
-        <hgroup>
-            <div>
-                <h3>退伍军⼈⽹</h3>
-                <time>2017年10⽉ - 2018年02⽉</time>
-            </div>
-        </hgroup>
-        <ul>
-            <li>描述：这是⼀个帮助退役军⼈，创业就业的⽹站</li>
-            <li>负责：和UI、后台沟通合作，独⽴开发登录注册，表单，详情等所有⻚⾯。开发期间⽤到了jQuery、Bootstrap、Vue、Less。</li>
-            <li>项⽬收获：了解到开发⼀个完整的web项⽬到上线的的流程；会基本的linux操作配置开发环境。</li>
+            <li>技术点：vue-cli、vue-router、vuex、Swiper、props、axios、watch、created、mounted</li>
         </ul>
     </section>
 
@@ -285,7 +236,7 @@
         <hgroup>
             <div>
                 <h3>河南⼯业贸易职业学院</h3>
-                <time>2015年09⽉ - 2017年07⽉</time>
+                <time>2015年09⽉ - 2018年07⽉</time>
             </div>
             <div>
                 <h4>计算机应⽤技术 ⼤专</h4>
@@ -294,12 +245,6 @@
         </hgroup>
     </section>
 
-    <section>
-        <h2>附加技能</h2>
-        <hr/>
-        <p>
-            异步编程; 抓包⼯具 fiddler,charles; DevTools调试; Google,StackOverflow解疑;
-        </p>
-    </section>
+    
 </body>
 </html>
