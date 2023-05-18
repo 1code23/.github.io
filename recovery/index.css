@@ -20,7 +20,18 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.fz7{
+ font-weight: 700;
+}
+.ml10{
+  margin-left: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+.colorBlue {
+  color: #1990ff;
+}
 .banner {
   display: flex;
 }
